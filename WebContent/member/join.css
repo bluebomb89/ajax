@@ -1,0 +1,86 @@
+body{
+	  font-family: ¸¼Àº °íµñ,ÈÞ¸Õ¸ÅÁ÷Ã¼;
+	  font-size: 9pt;
+}
+h3{
+	 text-align: center;
+}
+#wrapper{
+	border:5px solid #ededed;
+	width: 500px;
+	margin: 0px auto;
+	border-radius:10px;
+	padding: 15px;
+}
+#joinForm{
+	display: table;
+	margin: 10px auto;
+	border-collapse: collapse;
+}
+#joinForm p{
+	display: table-row;
+	padding: 5px;
+	border-bottom: 1px solid #898989;
+}
+#joinForm label{
+	display: table-cell;
+	padding-left: 40px;
+}
+#joinForm #cellStyle{
+	display: table-cell;
+	padding-left: 5px;
+}
+#joinForm #userid{
+	width: 100px;
+}
+#joinForm #username{
+	width: 100px;
+}
+#joinForm #userpwd,#joinForm #userpwd2{
+	width: 80px;
+}
+#joinForm #useraddr1,#joinForm #useraddr2{
+	width: 250px;
+	display: block;
+}
+#joinForm input[type="text"],
+#joinForm input[type="password"],
+#joinForm input[type="radio"],#joinForm select{
+	border:1px solid,#FF3399;
+	padding: 3px;
+	background-color: #efefef;
+	margin: 5px;
+	width: 60px;
+}
+#joinForm input[type="button"],
+#joinForm input[type="submit"]{
+	background-color: #fff;
+	border: 2px solid #F39;
+	padding: 3px 10px;
+	border-radius:10px;
+}
+#joinForm input[type="date"]{
+	border:1px solid,#FF3399;
+	padding: 3px;
+	background-color: #efefef;
+	margin: 5px;
+	width: 200px;
+}
+#joinForm .btnSubmit{
+	display: block;
+	text-align: center;
+	position: relative;
+	left: 250px;
+	top:2px;
+	border-bottom-style: none;
+}
+
+
+
+
+
+
+
+
+
+

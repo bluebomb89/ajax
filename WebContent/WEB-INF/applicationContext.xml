@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- startDocument(): 문서가 시작 -->
+<beans> <!-- startElement() -->
+	<!-- 메모리 할당 Class.forName(clsName) -->
+	<!-- startElement() 속성을 일고 endElement() -->
+	<bean id="main" class="com.main.model.MainModel"></bean>
+	<!-- startElement() 속성을 일고 endElement() -->
+	<bean id="board_list" class="com.board.model.BoardListModel"></bean>
+	<!-- startElement() 속성을 일고 endElement() -->
+	<bean id="board_insert" class="com.board.model.BoardInsertModel"></bean>
+	<!-- startElement() 속성을 일고 endElement() -->
+	<bean id="board_insert_ok" class="com.board.model.BoardInsertOK"></bean>
+	<!-- startElement() 속성을 일고 endElement() -->
+	<bean id="board_content" class="com.board.model.BoardContentModel"></bean>
+	<!-- startElement() 속성을 일고 endElement() -->
+	<bean id="board_update" class="com.board.model.BoardUpdateModel"></bean>
+	<!-- startElement() 속성을 일고 endElement() -->
+	<bean id="board_update_ok" class="com.board.model.BoardUpdateOKModel"></bean>
+	<!-- startElement() 속성을 일고 endElement() -->
+	<bean id="board_delete" class="com.board.model.BoardDeleteModel"></bean>
+	<!-- 회원 관련 -->
+	<bean id="member_login" class="com.member.model.Member_LoginModel"></bean>
+	<bean id="member_logout" class="com.member.model.Member_LogoutModel"></bean>
+	<bean id="join" class="com.member.model.MemberJoinModel"></bean>
+	<bean id="idcheck" class="com.member.model.IdCheckModel"></bean>
+	<bean id="postfind" class="com.member.model.PostFindModel"></bean>
+	<!-- reply -->
+	<bean id="reply_new_insert" class="com.board.model.ReplyNewInsertModel"></bean>
+	<bean id="reply_re_insert" class="com.board.model.ReplyReInsertModel"></bean>
+	<bean id="reply_re_update" class="com.board.model.ReplyReUpdateModel"></bean>
+	<bean id="reply_delete" class="com.board.model.ReplyDeleteModel"></bean>
+</beans> <!-- endElement() -->
+<!-- endDocument() : 문서가 종료 -->
